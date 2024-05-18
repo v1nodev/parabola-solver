@@ -1,0 +1,118 @@
+button {
+  padding: 8px 16px;
+  background-color: #454a45;
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 12px;
+  border-color: white;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #282a29;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, #45484d 0%, #000000 100%);
+  background-attachment: fixed;
+}
+
+h1, h2, h3, a {
+  margin-top: 50px;
+  color: #131111;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+a {
+  font-size: 20px;
+}
+
+#adam-button {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 3%;
+  height: 3%;
+  font-size: 50%;
+}
+
+#back-button {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.method-table td {
+ padding: 40px; 
+}
+
+.method-table button {
+  margin-bottom: 15px;
+}
+ 
+.method-img {
+  border-radius: 40px;
+}
+
+.info-table p {
+  border: 1px solid #aceefb;
+  padding: 6px;
+  margin-top: 20px;
+  width: 400px;
+  height: 320px;
+  color: #131111;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.info-table img {
+  background-color: white; 
+  width: 400px;  
+  margin-top: 20px; 
+  border-radius: 10px;
+}
+
+.smaller-divs div {
+  width: 414px;
+  height: 30px;
+}
+
+.smaller-divs h1 {
+  text-align: center;
+  border: 1px solid #aceefb;
+  padding: 4px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#maker-text {
+  background-color: #a42da4;
+  border-radius: 10px;
+  padding: 2px;
+  width: 220px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: black;
+  font-family: courier;
+  text-align: center;
+  text-decoration: none;
+}
+
+#credits {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}

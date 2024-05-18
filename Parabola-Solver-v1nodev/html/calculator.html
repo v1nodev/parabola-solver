@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>parabola</title>
+        <link rel="stylesheet" type="text/css" href="../css/calculator.css">
+        <link rel="icon" href="../images/parabola-icon.jpg">
+    </head>
+    <body>
+        <button onclick="window.location.href='../index.html'" id="back-button">Back to Home</button>
+        <center>
+            <h1>Please use decimals for non-whole number inputs</h1>
+            <h2>Inputs must follow proper point notation: (x, y)</h2>
+            <div class="input-container">
+                <label for="value1" id="value1label">Enter the vertex of the graph:</label>
+                <input type="text" id="value1" placeholder="Example: (-2.5, -0.25)" onkeyup="checkInputFields()">
+            </div>
+            <div class="input-container">
+                <label for="value2" id="value2label">Enter a point on the graph:</label>
+                <input type="text" id="value2" placeholder="Example: (-5, 6)" onkeyup="checkInputFields()">
+            </div>
+            <div class="input-container" id="thirdinputoption">
+                <label for="value3" id="value3label">Enter a point on the graph:</label>
+                <input type="text" id="value3" placeholder="Example: (-1, 2)" onkeyup="checkInputFields()">
+            </div>
+            <div class="input-container"> 
+                <button id="graph-button" onclick="findEqnToUse()">Please fill all boxes</button> 
+            </div>
+            <div> 
+                <h3 id="eqn-text"></h3>
+            </div>
+        </center>
+        <center id="graph-error-container">
+            <div id="graph-container">
+                <div id="calculator" style="width: 95%; height: 700px;"></div>
+            </div>
+        </center>
+        <center>
+            <div style="opacity: 0;"><p>for scrolling purposes</p></div>
+            <div style="opacity: 0;"><p>for scrolling purposes</p></div>
+            <div style="opacity: 0;"><p>for scrolling purposes</p></div>
+            <div style="opacity: 0;"><p>for scrolling purposes</p></div>
+            <div style="opacity: 0;"><p>for scrolling purposes</p></div>
+            <div style="opacity: 0;"><p>for scrolling purposes</p></div>
+        </center>
+    
+        <script src="../javascript/desmos.js"></script>
+        <script src="../javascript/main.js"></script>
+        <script src="../javascript/calculator.js"></script>
+        <script src="../javascript/funcs.js"></script>
+		<a id="maker-text" href="https://github.com/v1nodev" target="_blank" style="font-size: 20px;">Made by Vino 2024</a>
+    </body>
+</html>

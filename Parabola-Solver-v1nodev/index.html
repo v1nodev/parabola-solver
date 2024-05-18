@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Parabola Solver Home</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="images/parabola-icon.jpg" />
+  </head>
+  <body>
+    <center>
+      <h1>Parabola Equation Solver</h1>
+      <h2>Please select from one of the three methods shown below</h2>
+      <table class="method-table">
+        <tr>
+          <td>
+            <div>
+              <center>
+                <div>
+                  <button onclick="window.location.href='html/calculator.html?type=threepoints'" 
+                    width="100px" height="100px"> Three Points Method </button>
+                </div>
+                <div>
+                  <img src="images/threep.png" class="method-img"/>
+                </div>
+              </center>
+            </div>
+          </td>
+          <td>
+            <div>
+              <center>
+                <div>
+                  <button onclick="window.location.href='html/calculator.html?type=vertexandpoint'" 
+                    width="100px" height="100px"> Vertex Method </button>
+                </div>
+                <div>
+                  <img src="images/vandp.png" class="method-img"/>
+                </div>
+              </center>
+            </div>
+          </td>
+          <td>
+            <div>
+              <center>
+                <div>
+                  <button onclick="window.location.href='html/calculator.html?type=zeroesandpoint'"
+                    width="100px" height="100px"> Point and Zeroes Method </button>
+                </div>
+                <div>
+                  <img src="images/pandz.png" class="method-img"/>
+                </div>
+              </center>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </center>
+    <button id="adam-button" onclick="window.location.href='html/adam.html'">Adam</button>
+    <button id="back-button" onclick="window.location.href='html/info.html'">Info</button>
+    <a id="maker-text" href="https://github.com/v1nodev" target="_blank">Made by Vino 2024</a>
+  </body>
+</html>

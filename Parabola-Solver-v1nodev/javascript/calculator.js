@@ -10,7 +10,7 @@
     return;
   }
 
-  // i "borrowed" this code online
+  // very extensive
   let denom = (p1.x - p2.x) * (p1.x - p3.x) * (p2.x - p3.x);
   let a =
     (p3.x * (p2.y - p1.y) + p2.x * (p1.y - p3.y) + p1.x * (p3.y - p2.y)) /
@@ -49,7 +49,7 @@ function findEqnZerAndPoint() {
     return;
   }
 
-  // i copy pasted this code from earlier in the script where i "borrowed" it online
+  // still very extensive
   let denom = (p.x - z1.x) * (p.x - z2.x) * (z1.x - z2.x);
   let a =
     (z2.x * (z1.y - p.y) + z1.x * (p.y - z2.y) + p.x * (z2.y - z1.y)) /
